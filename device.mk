@@ -9,7 +9,7 @@ endif
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/kernel:kernel \
     $(LOCAL_PATH)/dt.img:dt.img \
-    $(LOCAL_PATH)/fstab.qcom:root/fstab.qcom
+    $(LOCAL_PATH)/fstab.armani:root/fstab.armani
 
 $(call inherit-product, build/target/product/full.mk)
 
