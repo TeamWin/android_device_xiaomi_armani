@@ -1,6 +1,6 @@
-/cache            ext4       /dev/block/platform/msm_sdcc.1/by-name/cache
-/system           ext4       /dev/block/platform/msm_sdcc.1/by-name/system
-/data             ext4       /dev/block/platform/msm_sdcc.1/by-name/userdata
+/cache            auto       /dev/block/platform/msm_sdcc.1/by-name/cache
+/system           auto       /dev/block/platform/msm_sdcc.1/by-name/system
+/data             auto       /dev/block/platform/msm_sdcc.1/by-name/userdata
 /boot             emmc       /dev/block/platform/msm_sdcc.1/by-name/boot
 /recovery         emmc       /dev/block/platform/msm_sdcc.1/by-name/recovery
 /external_sd      vfat       /dev/block/mmcblk1p1                               flags=display="External SD";storage;wipeingui;removable
