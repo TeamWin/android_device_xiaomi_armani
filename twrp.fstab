@@ -4,4 +4,4 @@
 /boot             emmc       /dev/block/platform/msm_sdcc.1/by-name/boot
 /recovery         emmc       /dev/block/platform/msm_sdcc.1/by-name/recovery
 /external_sd      vfat       /dev/block/mmcblk1p1                               flags=display="External SD";storage;wipeingui;removable
-/usb-otg          vfat       /dev/block/sda1 /dev/block/sda                     flags=display="USB OTG";storage;wipeingui;removable
+/usb_storage      vfat       /dev/block/sda1 /dev/block/sda                     flags=display="USB Storage";storage;wipeingui;removable
