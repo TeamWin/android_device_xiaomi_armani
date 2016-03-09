@@ -11,10 +11,6 @@ TARGET_BOARD_PLATFORM := msm8226
 TARGET_BOOTLOADER_BOARD_NAME := MSM8226
 TARGET_NO_BOOTLOADER := true
 
-# Flags
-TARGET_GLOBAL_CFLAGS += -mfpu=neon -mfloat-abi=softfp
-TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
-
 # Kernel
 TARGET_PREBUILT_KERNEL := device/xiaomi/armani/kernel
 TARGET_CUSTOM_KERNEL_HEADERS := device/xiaomi/armani/include
