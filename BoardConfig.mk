@@ -11,6 +11,9 @@ TARGET_BOARD_PLATFORM := msm8226
 TARGET_BOOTLOADER_BOARD_NAME := MSM8226
 TARGET_NO_BOOTLOADER := true
 
+# Encryption
+TARGET_HW_DISK_ENCRYPTION := true
+
 # Kernel
 TARGET_PREBUILT_KERNEL := device/xiaomi/armani/kernel
 TARGET_CUSTOM_KERNEL_HEADERS := device/xiaomi/armani/include
