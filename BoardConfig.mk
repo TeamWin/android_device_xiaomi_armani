@@ -13,7 +13,6 @@ TARGET_NO_BOOTLOADER := true
 
 # Kernel
 TARGET_PREBUILT_KERNEL := device/xiaomi/armani/kernel
-TARGET_CUSTOM_KERNEL_HEADERS := device/xiaomi/armani/include
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.bootdevice=msm_sdcc.1 androidboot.hardware=armani
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --dt device/xiaomi/armani/dt.img
@@ -29,5 +28,4 @@ BOARD_SUPPRESS_SECURE_ERASE := true
 # TWRP-Specific
 TW_THEME := portrait_hdpi
 TW_INCLUDE_CRYPTO := true
-TW_TARGET_USES_QCOM_BSP := true
 RECOVERY_SDCARD_ON_DATA := true
